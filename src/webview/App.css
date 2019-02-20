@@ -1,0 +1,85 @@
+html {
+  font-size: 14px;
+  padding: 10px;
+}
+/* 表格 */
+.table {
+  display: table;
+  padding: 0;
+}
+.table li {
+  display: table-row;
+  list-style: none;
+}
+
+.table .col-label {
+  display: table-cell;
+  max-width: 200px;
+  padding: 3px;
+}
+.table .col-value {
+  display: table-cell;
+  padding: 3px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+/* 结果 */
+.result {
+  margin: 5px;
+  border-left: 2px solid #0c7d9d;
+  padding: 0 5px;
+}
+.result .result-label {
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+}
+/* 按钮 */
+button {
+  min-width: 120px;
+  height: 26px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(14, 99, 156);
+  padding: 2px 14px;
+  border: 0;
+  cursor: pointer;
+}
+button:disabled {
+  color: rgb(255, 255, 255);
+  background-color: rgb(90, 90, 90);
+  cursor: not-allowed;
+}
+button.s{
+  min-width: 60px;
+}
+button.xs{
+  min-width: 50px;
+  height: 20px;
+}
+/* 指令 */
+.cmd{
+  
+}
+/* 下拉框 */
+select {
+  min-width: 200px;
+  height: 26px;
+  box-sizing: border-box;
+  align-items: center;
+  white-space: pre;
+  -webkit-rtl-ordering: logical;
+  cursor: default;
+  border-width: 1px;
+  border-style: solid;
+  border-image: initial;
+
+  background-color: rgb(60, 60, 60);
+  color: rgb(240, 240, 240);
+  border-color: rgb(60, 60, 60);
+  --dropdown-padding-top: 1px;
+  --dropdown-padding-bottom: 1px;
+  -webkit-appearance: menulist;
+}

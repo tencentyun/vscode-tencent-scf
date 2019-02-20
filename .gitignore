@@ -1,0 +1,6 @@
+out
+webview-build
+node_modules
+.vscode-test/
+*.vsix
+*.log

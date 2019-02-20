@@ -1,0 +1,15 @@
+.vscode/**
+.vscode-test/**
+out/test/**
+out/webview/**
+src/**
+images/**
+.gitignore
+vsc-extension-quickstart.md
+**/tsconfig.json
+**/tslint.json
+**/*.map
+**/*.ts
+webpack.*.js
+yarn.lock
+*.log
